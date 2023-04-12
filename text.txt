@@ -1,0 +1,17 @@
+-- put
+-- delete
+http://localhost:3000/todos/1
+
+-- post
+-- get
+http://localhost:3000/todos
+
+
+-- limit
+http://localhost:3000/todos?page=0&limit=3
+
+
+-- filter
+http://localhost:3000/todos?from=2023-02-12T10:47:42.666Z&to=2023-03-12T10:48:03.990Z
+
+http://localhost:3000/todos?from=2023-04-12T10:47:42.666Z&to=2023-05-12T10:48:03.990Z
